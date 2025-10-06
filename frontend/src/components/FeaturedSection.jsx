@@ -94,7 +94,7 @@ function FeaturedSection() {
 
       <motion.button
 
-         initial={{y:20,opacity:0}}
+         initial={{y:10,opacity:0}}
           whileInView={{opacity:1,y:0}}
     transition={{duration:0.6,delay:0.4}}
         onClick={() => {
